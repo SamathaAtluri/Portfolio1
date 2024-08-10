@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 2rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 4rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.section h2 {
+    text-align: left;
+    margin-bottom: 5% 5% 0% 0%;
+    font-size: xx-large;
+}
+.section h1{
+    text-align: left;
+    margin-bottom: 5% 5% 0% 0%;
+    font-size: xx-large;
+
+}
+
+.container1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-image: round;
+    
+    
+}
+.content1 {
+    display: flex;
+    align-items: flex-start;
+    margin: 0% 0% 0% 55%;
+}
+
+.image{
+    float: right;
+    margin: 0% 0% 0% 25%;
+    padding: 0% 25% 0% 0%;
+    width: 500px;
+    height: 500px;
+    border-radius: 60%;
+    object-fit: contain;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 1rem;
+}
+.content{
+    text-align: justify;
+}
+.container2{
+    width: 90%;
+    height: 500px;
+    max-width: 1200px;
+    margin: 0;
+    padding: 100px;
+    background-color: #a357ca;
+    border: 1px solid #b925be;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    font-size: 25px;
+       
+}
+.p{
+    text-align: justify;
+    margin: 0% 25% 0% 0%;
+    padding: 0% 25% 5% 2%;
+    font-size: 20px;
+}
+.concept{
+    margin: 5% 0% 0% 25%;
+
+    padding: 0% 0% 0% 25%;
+    font-size: 25px;
+
+}
+.container2-concept{
+    margin: 0% 0% 7% 2%;
+    padding: 7% 0% 7% 0%;
+}
+
+.project1{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(232, 226, 226);
+    color: rgb(15, 14, 14);
+    border-radius: 2px solid black;
+    margin: 0% 10% 1% 10%;
+    border: 5px solid rgb(15, 14, 14);
+    padding: 2% 0% 10% 0%;
+    background-image: fill;
+}
+.project2{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(232, 226, 226);
+    color: rgb(15, 14, 14);
+    border-radius: 2px solid black;
+    margin: 0% 10% 1% 10%;
+    border: 5px solid rgb(15, 14, 14);
+    padding: 2% 0% 10% 0%;
+    background-image: fill;
+}
+
+.project2-img img{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 0% 10% 1% 10%;
+    padding: 2% 0% 10% 0%;
+}
+.project2-img{
+    float: left; 
+    width: 50%;
+    margin: 5% 0% 0% 30%;
+  
+}
+.project3{
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(232, 226, 226);
+    color: rgb(15, 14, 14);
+    border-radius: 2px solid black;
+    margin: 0% 100% 0% 50%;
+    border: 5px solid rgb(15, 14, 14);
+    padding: 2% 0% 10% 0%;
+ 
+}
+
+.container3{
+    float: left;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #9e20b8;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       
+    
+}
+.container4{
+    float: left;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       
+}
+
+
+
+footer {
+    float: left;
+    width: 150%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #090101;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #f4f4f4;
+}
